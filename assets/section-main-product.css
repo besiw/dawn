@@ -818,6 +818,10 @@ a.product__text {
   width: 2.2rem;
 }
 
+.product-table {
+  border-collapse: collapse;
+
+}
 
 .product-table tr td,
 .product-list li {
@@ -826,8 +830,16 @@ a.product__text {
   font-size: 1.2rem;
 }
 
-.product-table tr {
+.product-table tr td {
+  padding: 1rem;
+}
 
+.product-table tr:nth-child(even) {
+  background-color: #e3e3e3;
+}
+
+
+.product-table tr {
   border-left: none !important;
   border-right: none !important;
 }
@@ -843,5 +855,4 @@ a.product__text {
 
 .product-table tr td:first-child {
   text-transform: uppercase;
-  padding-left: 0;
 }

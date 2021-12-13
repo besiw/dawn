@@ -84,7 +84,7 @@
             <h1 class="product__title" {{ block.shopify_attributes }}>
               {{ product.title | escape }}
             </h1>
-          {%- when 'price' -%}
+<!--           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
             </div>
@@ -103,7 +103,7 @@
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}
               {%- endform -%}
-            </div>
+            </div> -->
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte">
@@ -130,31 +130,7 @@
                 </div>
               </details>
             </div>
-          {%- when 'quantity_selector' -%}
-            <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
-              <label class="form__label" for="Quantity-{{ section.id }}">
-                {{ 'products.product.quantity.label' | t }}
-              </label>
 
-              <quantity-input class="quantity">
-                <button class="quantity__button no-js-hidden" name="minus" type="button">
-                  <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>
-                  {% render 'icon-minus' %}
-                </button>
-                <input class="quantity__input"
-                    type="number"
-                    name="quantity"
-                    id="Quantity-{{ section.id }}"
-                    min="1"
-                    value="1"
-                    form="{{ product_form_id }}"
-                  >
-                <button class="quantity__button no-js-hidden" name="plus" type="button">
-                  <span class="visually-hidden">{{ 'products.product.quantity.increase' | t: product: product.title | escape }}</span>
-                  {% render 'icon-plus' %}
-                </button>
-              </quantity-input>
-            </div>
           {%- when 'popup' -%}
               <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
                 <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
@@ -273,7 +249,7 @@
                 </div>
               </div>
             </noscript>
-          {%- when 'buy_buttons' -%}
+<!--           {%- when 'buy_buttons' -%}
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form">
                 <div class="product-form__error-message-wrapper" role="alert" hidden>
@@ -337,7 +313,7 @@
               </pickup-availability>
             </div>
 
-            <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
+            <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script> -->
           {%- when 'rating' -%}
             {%- if product.metafields.reviews.rating.value != blank -%}
               {% liquid
@@ -368,106 +344,90 @@
   <div>
 
     {%- assign specs = product.metafields["accentuate"]-%}
-    <table class="product-table">
-      <tbody>
-        <tr class="">
-          <td class="">
-            Module size（W x H x D）
-          </td>
-          <td>
-            {{specs.module_sizew_x_h_x_d}}
-          </td>
-        </tr>
-        <tr>
-          <td class="">
-            Viewing area（W x H)
-          </td>
-          <td>
-            {{specs.viewing_area_w_x_h}}
-          </td>
-        </tr>
-        <tr>
-          <td class="">
-            Character Size 
-          </td>
-          <td>
-            {{specs.character_size}}
-          </td>
-        </tr>
-        <tr>
-          <td class="">
-            Dot Size
-          </td>
-          <td>
-            {{specs.dot_size}}
-          </td>
-        </tr>
-        <tr>
-          <td class="">
-            Dot pitch (W x H)
-          </td>
-          <td>
-            {{specs.dot_pitch}}
-          </td>
-        </tr>
-        <tr>
-          <td class="">
-            Interface     
-          </td>
-          <td>
-            {{specs.interface }}
-          </td>
-        </tr>
-        <tr>
-          <td class="">
-            Driver Condition
-          </td>
-          <td>
-            {{specs.driver_condition}}
-          </td>
-        </tr>
-        <tr>
-          <td class="">
-            Driver IC
-          </td>
-          <td>
-            {{specs.driver_ic}}
-          </td>
-        </tr>
-        <tr>
-          <td class="">
-            Operating temperature
-          </td>
-          <td>
-            {{specs.operating_temperature}}
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <h2>Datasheet</h2>
-    {%- assign datasheet = product.metafields["accentuate"].datasheet | split: "|" -%}
-    <ul class="px-0 product-list">
-      {%- for file in datasheet -%}
-          {% assign url = file | file_url %}
-            <li>
-              <a class="no-underline  text-blue-600" target="_blank" href="{{ url }}">{{file}}</a>
-            </li>
-      {%- endfor -%}
-    </ul>
-    <h2> Specification </h2>
-    {%- assign spec_files = product.metafields["accentuate"].specification_files| split: "|" -%}
-      <ul class="px-0 product-list">
-        {%- for file in spec_files -%}
-            {% assign url = file | file_url %}
-              <li class="">
-                <a class="no-underline text-blue-600" target="_blank" href="{{ url }}">{{file}}</a>
-              </li>
-        {%- endfor -%}
-      </ul>
+    <h2 class="text-white my-0 p-4 rounded-t-lg bg-gray-500">Specifications</h2>
+    <div class="border-solid border-2 rounded-b-lg border-gray-500">
+      <table class="product-table w-full">
+        <tbody>
+          <tr class="">
+            <td class="">
+              Module size（W x H x D）
+            </td>
+            <td>
+              {{specs.module_sizew_x_h_x_d}}
+            </td>
+          </tr>
+          <tr>
+            <td class="">
+              Viewing area（W x H)
+            </td>
+            <td>
+              {{specs.viewing_area_w_x_h}}
+            </td>
+          </tr>
+          <tr>
+            <td class="">
+              Character Size 
+            </td>
+            <td>
+              {{specs.character_size}}
+            </td>
+          </tr>
+          <tr>
+            <td class="">
+              Dot Size
+            </td>
+            <td>
+              {{specs.dot_size}}
+            </td>
+          </tr>
+          <tr>
+            <td class="">
+              Dot pitch (W x H)
+            </td>
+            <td>
+              {{specs.dot_pitch}}
+            </td>
+          </tr>
+          <tr>
+            <td class="">
+              Interface     
+            </td>
+            <td>
+              {{specs.interface }}
+            </td>
+          </tr>
+          <tr>
+            <td class="">
+              Driver Condition
+            </td>
+            <td>
+              {{specs.driver_condition}}
+            </td>
+          </tr>
+          <tr>
+            <td class="">
+              Driver IC
+            </td>
+            <td>
+              {{specs.driver_ic}}
+            </td>
+          </tr>
+          <tr>
+            <td class="">
+              Operating temperature
+            </td>
+            <td>
+              {{specs.operating_temperature}}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-      <h2>General File</h2>
-      {%- assign datasheet = product.metafields["accentuate"].general_other | split: "|" -%}
-      <ul class="px-0 product-list">
+    <div class="hover:shadow-lg my-8">
+      <h2 class="text-white my-0 p-4 rounded-t-lg bg-blue-500">Datasheet</h2>
+      {%- assign datasheet = specs.datasheet | split: "|" -%}
+      <ul class="product-list border-2 border-solid border-blue-500 p-4 rounded-b-lg">
         {%- for file in datasheet -%}
             {% assign url = file | file_url %}
               <li>
@@ -475,6 +435,32 @@
               </li>
         {%- endfor -%}
       </ul>
+    </div>
+    <div class="hover:shadow-lg my-8">
+      <h2 class="text-white my-0 p-4 rounded-t-lg bg-blue-500"> Specification </h2>
+      {%- assign spec_files = specs.specification_files| split: "|" -%}
+        <ul class="product-list border-2 border-solid border-blue-500 p-4 rounded-b-lg">
+          {%- for file in spec_files -%}
+              {% assign url = file | file_url %}
+                <li class="">
+                  <a class="no-underline text-blue-600" target="_blank" href="{{ url }}">{{file}}</a>
+                </li>
+          {%- endfor -%}
+        </ul>
+    </div>
+
+    <div class="hover:shadow-lg my-8">
+      <h2 class="text-white my-0 p-4 rounded-t-lg bg-blue-500">General File</h2>
+      {%- assign datasheet = specs.general_other | split: "|" -%}
+      <ul class="product-list border-2 border-solid border-blue-500 p-4 rounded-b-lg">
+        {%- for file in datasheet -%}
+            {% assign url = file | file_url %}
+              <li>
+                <a class="no-underline  text-blue-600" target="_blank" href="{{ url }}">{{file}}</a>
+              </li>
+        {%- endfor -%}
+      </ul>
+      </div>
   </div>
   <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal media-modal">
     <div class="product-media-modal__dialog" role="dialog" aria-label="{{ 'products.modal.label' | t }}" aria-modal="true" tabindex="-1">
