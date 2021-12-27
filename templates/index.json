@@ -115,6 +115,22 @@
         "show_rating": false
       }
     },
+    "1638171798e74f717c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Monochrome LCD Display",
+        "collection": "monochrome-lcds",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
     "1638172035b6b551e5": {
       "type": "multicolumn",
       "blocks": {
@@ -163,22 +179,6 @@
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
-      }
-    },
-    "1638171798e74f717c": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Monochrome LCD Display",
-        "collection": "monochrome-lcds",
-        "products_to_show": 8,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": true,
-        "show_rating": false
       }
     },
     "1639197879c4e52274": {
@@ -393,8 +393,8 @@
     "image-banner-homepage",
     "16405988510119f578",
     "16381716995a7fc74d",
-    "1638172035b6b551e5",
     "1638171798e74f717c",
+    "1638172035b6b551e5",
     "1639197879c4e52274",
     "16381731373742ab86",
     "1638173297c2783063",
