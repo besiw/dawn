@@ -38,7 +38,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Banner.jpg",
+        "image": "shopify:\/\/shop_images\/Banner-no-text.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
