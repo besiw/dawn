@@ -5,6 +5,7 @@
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "LCD Display Manufacturing",
             "heading_size": "medium"
@@ -12,6 +13,7 @@
         },
         "4dec29d2-db7e-47aa-ad73-baae105a5cb6": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Radiant Electronics Limited. Producing quality LCD Display since 2006.",
             "text_style": "body"
@@ -19,6 +21,7 @@
         },
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "About Radisplay",
             "button_link_1": "shopify:\/\/collections\/all",
@@ -35,14 +38,13 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Radiant_Display_Rubbing.jpg",
-        "image_2": "shopify:\/\/shop_images\/Radiant_Display_-_4_Scribing_machine.jpg",
+        "image": "shopify:\/\/shop_images\/Banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "accent-2",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
