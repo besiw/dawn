@@ -1,11 +1,11 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "image-banner-homepage": {
+      "type": "image-banner-homepage",
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
+          "disabled": false,
           "settings": {
             "heading": "LCD Display Manufacturing",
             "heading_size": "medium"
@@ -13,7 +13,7 @@
         },
         "4dec29d2-db7e-47aa-ad73-baae105a5cb6": {
           "type": "text",
-          "disabled": true,
+          "disabled": false,
           "settings": {
             "text": "Radiant Electronics Limited. Producing quality LCD Display since 2006.",
             "text_style": "body"
@@ -21,7 +21,7 @@
         },
         "button": {
           "type": "buttons",
-          "disabled": true,
+          "disabled": false,
           "settings": {
             "button_label_1": "About Radisplay",
             "button_link_1": "shopify:\/\/collections\/all",
@@ -343,7 +343,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "image-banner-homepage",
     "16381716995a7fc74d",
     "1638172035b6b551e5",
     "1638171798e74f717c",
