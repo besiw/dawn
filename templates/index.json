@@ -354,9 +354,10 @@
         "1640598851ee56beee-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Factory-Production_process.jpg",
+            "title": "Production Line",
+            "text": "",
+            "link_label": "Take a look",
             "link": ""
           }
         },
