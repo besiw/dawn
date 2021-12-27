@@ -2,12 +2,20 @@
 <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="bg-black {% if section.settings.title == blank %} no-heading{% endif %}">
+<div class=" bg-black py-16 {% if section.settings.title == blank %} no-heading{% endif %}">
   <div class="page-width">
-    <div class="title-wrapper-with-link title-wrapper--self-padded-mobile{% if section.settings.title == blank %} title-wrapper-with-link--no-heading{% endif %}">
-      <h2 class="title">
+    <div class="">
+      <h2 class="w-full font-bold p-4 text-center" style="color: orange;">
         {{ section.settings.title | escape }}
       </h2>
+     <div class="text-center">
+      <ul class="text-gray-400 inline-block text-center">
+        <li>Location: Banqiao Industrial Area, Taimei Village, Boluo District</p>
+        <li>Ind. Land Area: 12750 sq. M</p>
+  
+        <li>Staff number:400</p>
+      </ul>
+     </div>
       {%- if section.settings.button_label != blank and section.settings.swipe_on_mobile -%}
         <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">{{ section.settings.button_label | escape }}</a>
       {%- endif -%}
@@ -55,16 +63,11 @@
                   </div>
                 </div>
               {%- endif -%}
-              <div class="multicolumn-card__info">
+              <div class="text-center">
                 {%- if block.settings.title != blank -%}
-                  <h3>{{ block.settings.title | escape }}</h3>
+                  <a href="{{ block.settings.link }}" class=" inline-block p-4 m-8 no-underline" style="border: 1px solid orange;color: orange;">{{ block.settings.title | escape }}</a>
                 {%- endif -%}
-                {%- if block.settings.text != blank -%}
-                  <div class="rte">{{ block.settings.text }}</div>
-                {%- endif -%}
-                {%- if block.settings.link_label != blank -%}
-                  <a class="link animate-arrow" {% if block.settings.link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}>{{ block.settings.link_label | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a>
-                {%- endif -%}
+                
               </div>
             </div>
           </li>
@@ -84,20 +87,13 @@
         </div>
       {%- endif -%}
     </slider-component>
-    <div class="center{% if section.settings.swipe_on_mobile %} small-hide medium-hide{% endif %}">
-      {%- if section.settings.button_label != blank -%}
-        <a class="button button--primary"{% if section.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.button_link }}"{% endif %}>
-          {{ section.settings.button_label | escape }}
-        </a>
-      {%- endif-%}
-    </div>
   </div>
 </div>
 
 {% schema %}
 {
   "name": "t:sections.multicolumn.name",
-  "class": "-my-20",
+  "class": "spaced-section spaced-section--full-width",
   "tag": "section",
   "settings": [
     {
