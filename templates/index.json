@@ -48,51 +48,51 @@
         "show_text_below": true
       }
     },
-    "16405988510119f578": {
-      "type": "multicolumn",
+    "16406171165289c925": {
+      "type": "multicolumn-dark",
       "blocks": {
-        "1640598851ee56beee-0": {
+        "1640617116fbd260ad-0": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Factory-Building.jpg",
             "title": "Factory Buildings",
             "text": "",
-            "link_label": "Take a look",
+            "link_label": "",
             "link": ""
           }
         },
-        "1640598851ee56beee-1": {
+        "1640617116fbd260ad-1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Factory-Production_process.jpg",
             "title": "Production Line",
-            "text": "",
-            "link_label": "Take a look",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
             "link": ""
           }
         },
-        "1640598851ee56beee-2": {
+        "1640617116fbd260ad-2": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Facilities.jpg",
             "title": "Machines",
-            "text": "",
-            "link_label": "Take a look",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "1640598851ee56beee-0",
-        "1640598851ee56beee-1",
-        "1640598851ee56beee-2"
+        "1640617116fbd260ad-0",
+        "1640617116fbd260ad-1",
+        "1640617116fbd260ad-2"
       ],
       "settings": {
         "title": "Virtual Factory Tour",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "secondary",
+        "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",
         "swipe_on_mobile": false
@@ -391,7 +391,7 @@
   },
   "order": [
     "image-banner-homepage",
-    "16405988510119f578",
+    "16406171165289c925",
     "16381716995a7fc74d",
     "1638171798e74f717c",
     "1638172035b6b551e5",
