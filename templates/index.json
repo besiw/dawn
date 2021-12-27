@@ -38,7 +38,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Banner-no-text.jpg",
+        "image": "shopify:\/\/shop_images\/Radiant_Display_Website_banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -66,6 +66,56 @@
         "show_image_outline": true,
         "show_vendor": true,
         "show_rating": false
+      }
+    },
+    "1638172035b6b551e5": {
+      "type": "multicolumn",
+      "blocks": {
+        "16381720351e0a2d97-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Map-HK.jpg",
+            "title": "Headquarters (Hong Kong)",
+            "text": "<p><strong>Radiant Electronics Limited<\/strong><\/p><p>Rm U,13\/F Blk. 1 Kinho Ind, Bldg.,14 Au Pui Wan St., H.K.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16381720351e0a2d97-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Map-Henggang.jpg",
+            "title": "Shenzhen Base",
+            "text": "<p><strong>Shenzhen Radiant Electronics Limited<\/strong><br\/><\/p><p>401, Building C, Fuyunlai Technology Park, No. 57, Anhua Road<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16381720351e0a2d97-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Map-Taimei.jpg",
+            "title": "Huizhou Base",
+            "text": "<p><strong>Huizhou Radiant Photo Tech  Ltd.<\/strong><\/p><p>Banqiao Industrial Area Taimei Village Boluo District<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16381720351e0a2d97-0",
+        "16381720351e0a2d97-1",
+        "16381720351e0a2d97-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     },
     "1638171798e74f717c": {
@@ -130,56 +180,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "1638172035b6b551e5": {
-      "type": "multicolumn",
-      "blocks": {
-        "16381720351e0a2d97-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Map-HK.jpg",
-            "title": "Headquarters (Hong Kong)",
-            "text": "<p><strong>Radiant Electronics Limited<\/strong><\/p><p>Rm U,13\/F Blk. 1 Kinho Ind, Bldg.,14 Au Pui Wan St., H.K.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "16381720351e0a2d97-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Map-Henggang.jpg",
-            "title": "Shenzhen Base",
-            "text": "<p><strong>Shenzhen Radiant Electronics Limited<\/strong><br\/><\/p><p>401, Building C, Fuyunlai Technology Park, No. 57, Anhua Road<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "16381720351e0a2d97-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Map-Taimei.jpg",
-            "title": "Huizhou Base",
-            "text": "<p><strong>Huizhou Radiant Photo Tech  Ltd.<\/strong><\/p><p>Banqiao Industrial Area Taimei Village Boluo District<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16381720351e0a2d97-0",
-        "16381720351e0a2d97-1",
-        "16381720351e0a2d97-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
       }
     },
     "16381731373742ab86": {
@@ -345,9 +345,9 @@
   "order": [
     "image_banner",
     "16381716995a7fc74d",
+    "1638172035b6b551e5",
     "1638171798e74f717c",
     "1639197879c4e52274",
-    "1638172035b6b551e5",
     "16381731373742ab86",
     "1638173297c2783063",
     "16381740530048cef2",
