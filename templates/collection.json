@@ -89,12 +89,11 @@
         },
         "1641462062f5a1c74c-2": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Learn more",
+            "button_link_1": "shopify:\/\/pages\/about-us",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
