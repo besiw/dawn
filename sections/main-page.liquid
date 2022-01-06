@@ -4,14 +4,126 @@
 <noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
+{%- assign galleryImages =  page.metafields["accentuate"]["gallery"] -%}
 <div class="page-width page-width--narrow">
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
   </h1>
+<!--   <div id="modal-container" class="fixed inset-0 w-full h-full">
+    <div class="relative m-auto">
+      <img id="modal-image" src="" alt="" class="max-w-8/12">
+    </div>
+  </div> -->
   <div class="rte">
     {{ page.content }}
   </div>
+  <div class="sm:grid-cols-2 md:grid-cols-4 gap-4" style="display: grid;">
+    {%- for image in galleryImages -%}
+<!--     <modal-opener class="no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
+    
+      <img id="image-thumbnail-wrapper"  data-image="{{image.src}}" loading="lazy" class="w-full" src="{{ image.src | replace: '/cdn','/cld' | append: '&options=h_200' }}" alt="" width="100" height="auto" >
+    </modal-opener> -->
+
+    <modal-opener class="product__modal-opener product__modal-opener--image no-js-hidden relative" data-modal="#ProductModal-">
+      <span class="w-12 h-12 absolute z-10 top-6 left-6 bg-white border-round flex justify-center items-center rounded-full" aria-hidden="true">
+        {%- render 'icon-zoom' -%}
+      </span>
+    
+      <div class="pt-square block overflow-hidden relative w-full" style="">
+        <img
+          class="absolute top-0 left-0 h-full"
+          src="{{ image.src | replace: '/cdn','/cld' | append: '&options=h_400' }}"
+       
+        />
+      </div>
+      <div>{{image.filename}}</div>
+      <button class="invisible absolute inset-0 w-full h-full" type="button" aria-haspopup="dialog" data-media-id="{{ media.id }}">
+        <span class="visually-hidden">
+<!--           {%- if position == 'featured' %}
+            {{ 'products.product.media.open_featured_media' | t }}
+          {%- else -%}
+            {{ 'products.product.media.open_media' | t: index: position }}
+          {%- endif -%} -->
+        </span>
+      </button>
+    </modal-opener>
+ 
+  {%-endfor-%}
+
 </div>
+
+
+{% javascript %}
+  console.log(document.querySelector("#image-thumbnail-wrapper"))
+    document.querySelector("#image-thumbnail-wrapper").onclick = function(e){
+    console.log("clicked");
+  }
+
+  // forEach method, could be shipped as part of an Object Literal/Module // 
+  var forEach = function (array, callback, scope) {
+    for (var i = 0; i < array.length; i++) {
+      callback.call(scope, i, array[i]); // passes back stuff we need
+    }
+  };
+  // Usage:
+  // optionally change the scope as final parameter too, like ECMA5
+  var myNodeList = document.querySelectorAll("#image-thumbnail-wrapper");
+  const lightBoxImage= document.querySelector("#modal-image")
+  forEach(myNodeList, function (index, elemenet) {
+    elemenet.onclick = function(e){
+      console.log(e.target.dataset.image) 
+      console.log(e.target.parentElement.nextSibling.firstElementChild.src)
+      console.log(e.target.parentElement.nextSibling.firstElementChild.src)
+      lightBoxImage.src=e.target.dataset.image
+    
+    }
+  });
+
+  class ImageModal extends ModalDialog {
+    constructor() {
+      super();
+    }
+
+    hide() {
+      super.hide();
+    }
+  }
+  class ProductModal extends ModalDialog {
+    constructor() {
+      super();
+    }
+
+    hide() {
+      super.hide();
+    }
+
+    show(opener) {
+      super.show(opener);
+      this.showActiveMedia();
+    }
+
+    showActiveMedia() {
+      this.querySelectorAll(`[data-media-id]:not([data-media-id="${this.openedBy.getAttribute("data-media-id")}"])`).forEach((element) => {
+          element.classList.remove('active');
+        }
+      )
+      //classList.add('hide-modal-content');
+      const activeMedia = this.querySelector(`[data-media-id="${this.openedBy.getAttribute("data-media-id")}"]`);
+      const activeMediaTemplate = activeMedia.querySelector('template');
+      const activeMediaContent = activeMediaTemplate ? activeMediaTemplate.content : null;
+      activeMedia.classList.add('active');
+      activeMedia.scrollIntoView();
+
+      const container = this.querySelector('[role="document"]');
+      container.scrollLeft = (activeMedia.width - container.clientWidth) / 2;
+
+      if (activeMedia.nodeName == 'DEFERRED-MEDIA' && activeMediaContent && activeMediaContent.querySelector('.js-youtube'))
+        activeMedia.loadContent();
+    }
+  }
+
+  customElements.define('image-modal', ProductModal);
+{% endjavascript %}
 
 {% schema %}
 {
