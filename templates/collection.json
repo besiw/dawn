@@ -167,6 +167,12 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1641462881687d2e2c": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Quotes or enquires"
+      }
     }
   },
   "order": [
@@ -174,6 +180,7 @@
     "16414620623ab086b1",
     "product-grid",
     "16414620454170aecd",
-    "16414625321de8b804"
+    "16414625321de8b804",
+    "1641462881687d2e2c"
   ]
 }
