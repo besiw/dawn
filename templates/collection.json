@@ -155,12 +155,12 @@
         "164146253213c7b93c-2"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Virtual Factory Tour",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "background_style": "secondary",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
       }
