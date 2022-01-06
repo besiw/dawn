@@ -77,7 +77,7 @@
                   {{ 'onboarding.product_title' | t }}
                 {%- endif -%}
               </h2>
-            {%- when 'price' -%}
+<!--             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
               </div>
@@ -98,7 +98,7 @@
                     {{ form | payment_terms }}
                   {%- endform -%}
                 </div>
-              {%- endif -%}
+              {%- endif -%} -->
             {%- when 'quantity_selector' -%}
               <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
                 <label class="form__label" for="Quantity-{{ section.id }}">
