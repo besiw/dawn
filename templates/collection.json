@@ -7,6 +7,54 @@
         "show_collection_image": false
       }
     },
+    "16414620623ab086b1": {
+      "type": "image-banner-homepage",
+      "blocks": {
+        "1641462062f5a1c74c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Radiant Electronics Limited",
+            "heading_size": "medium"
+          }
+        },
+        "1641462062f5a1c74c-1": {
+          "type": "text",
+          "settings": {
+            "text": "We are a Hong Kong based company specialized in LCD display panels.",
+            "text_style": "body"
+          }
+        },
+        "1641462062f5a1c74c-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Learn more",
+            "button_link_1": "shopify:\/\/pages\/about-us",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1641462062f5a1c74c-0",
+        "1641462062f5a1c74c-1",
+        "1641462062f5a1c74c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Radiant_Display_Website_banner-v3_28cbdb27-4c58-4c73-9036-710572fb9940.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -70,54 +118,6 @@
         "show_text_below": true
       }
     },
-    "16414620623ab086b1": {
-      "type": "image-banner-homepage",
-      "blocks": {
-        "1641462062f5a1c74c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Radiant Electronics Limited",
-            "heading_size": "medium"
-          }
-        },
-        "1641462062f5a1c74c-1": {
-          "type": "text",
-          "settings": {
-            "text": "We are a Hong Kong based company specialized in LCD display panels.",
-            "text_style": "body"
-          }
-        },
-        "1641462062f5a1c74c-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Learn more",
-            "button_link_1": "shopify:\/\/pages\/about-us",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1641462062f5a1c74c-0",
-        "1641462062f5a1c74c-1",
-        "1641462062f5a1c74c-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Radiant_Display_Website_banner-v3_28cbdb27-4c58-4c73-9036-710572fb9940.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "16414625321de8b804": {
       "type": "multicolumn-dark",
       "blocks": {
@@ -168,9 +168,9 @@
   },
   "order": [
     "banner",
+    "16414620623ab086b1",
     "product-grid",
     "16414620454170aecd",
-    "16414620623ab086b1",
     "16414625321de8b804"
   ]
 }
