@@ -303,10 +303,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Factory-Production_process.jpg",
-            "title": "Column",
+            "title": "Production Line",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/pages\/production-1"
           }
         },
         "1641531713bfcca10a-2": {
