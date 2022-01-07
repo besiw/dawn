@@ -285,6 +285,12 @@
         "show_text_below": true
       }
     },
+    "16415317164ef7fc8a": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Quotes and enquires"
+      }
+    },
     "1638177334313369c7": {
       "type": "image-banner",
       "blocks": {
@@ -335,12 +341,6 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "16415317164ef7fc8a": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Quotes and enquires"
-      }
     }
   },
   "order": [
@@ -352,7 +352,7 @@
     "164153171416839ea4",
     "1639191518f387fa59",
     "16391954284f4f81c1",
-    "1638177334313369c7",
-    "16415317164ef7fc8a"
+    "16415317164ef7fc8a",
+    "1638177334313369c7"
   ]
 }
