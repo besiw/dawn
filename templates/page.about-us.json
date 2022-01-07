@@ -292,15 +292,17 @@
         "1641531713bfcca10a-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Factory-Building.jpg",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "",
+            "link_label": "Factory Buildings",
+            "link": "shopify:\/\/pages\/factory-building"
           }
         },
         "1641531713bfcca10a-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Factory-Production_process.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -310,6 +312,7 @@
         "1641531713bfcca10a-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Facilities.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
