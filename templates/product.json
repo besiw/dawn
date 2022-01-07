@@ -132,11 +132,18 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1641530996373d408e": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Quotes and Enquiries"
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "1641530722972ce9d2"
+    "1641530722972ce9d2",
+    "1641530996373d408e"
   ]
 }
