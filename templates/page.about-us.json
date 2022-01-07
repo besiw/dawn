@@ -168,6 +168,56 @@
         "layout": "text_first"
       }
     },
+    "164153171416839ea4": {
+      "type": "multicolumn-dark",
+      "blocks": {
+        "1641531713bfcca10a-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Factory-Building.jpg",
+            "title": "Factory Buildings",
+            "text": "",
+            "link_label": "Factory Buildings",
+            "link": "shopify:\/\/pages\/factory-building"
+          }
+        },
+        "1641531713bfcca10a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Factory-Production_process.jpg",
+            "title": "Production Line",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/pages\/production-1"
+          }
+        },
+        "1641531713bfcca10a-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Facilities.jpg",
+            "title": "Machine",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/pages\/machines"
+          }
+        }
+      },
+      "block_order": [
+        "1641531713bfcca10a-0",
+        "1641531713bfcca10a-1",
+        "1641531713bfcca10a-2"
+      ],
+      "settings": {
+        "title": "Virtual Factory Tour",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "1639191518f387fa59": {
       "type": "image-banner",
       "settings": {
@@ -286,54 +336,10 @@
         "show_text_below": true
       }
     },
-    "164153171416839ea4": {
-      "type": "multicolumn-dark",
-      "blocks": {
-        "1641531713bfcca10a-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Factory-Building.jpg",
-            "title": "Factory Buildings",
-            "text": "",
-            "link_label": "Factory Buildings",
-            "link": "shopify:\/\/pages\/factory-building"
-          }
-        },
-        "1641531713bfcca10a-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Factory-Production_process.jpg",
-            "title": "Production Line",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/pages\/production-1"
-          }
-        },
-        "1641531713bfcca10a-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Facilities.jpg",
-            "title": "Machine",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/pages\/machines"
-          }
-        }
-      },
-      "block_order": [
-        "1641531713bfcca10a-0",
-        "1641531713bfcca10a-1",
-        "1641531713bfcca10a-2"
-      ],
+    "16415317164ef7fc8a": {
+      "type": "contact-form",
       "settings": {
-        "title": "Virtual Factory Tour",
-        "image_width": "full",
-        "image_ratio": "square",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
+        "heading": "Quotes and enquires"
       }
     }
   },
@@ -343,9 +349,10 @@
     "16381759848c0124cf",
     "1639189093cc12045c",
     "1638176104429b5741",
+    "164153171416839ea4",
     "1639191518f387fa59",
     "16391954284f4f81c1",
     "1638177334313369c7",
-    "164153171416839ea4"
+    "16415317164ef7fc8a"
   ]
 }
