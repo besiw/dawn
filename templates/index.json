@@ -430,57 +430,6 @@
         "show_text_below": true
       }
     },
-    "16381740530048cef2": {
-      "type": "image-banner",
-      "blocks": {
-        "163817405310f90a20-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "163817405310f90a20-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "163817405310f90a20-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "163817405310f90a20-0",
-        "163817405310f90a20-1",
-        "163817405310f90a20-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Radiant_workflow.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "16381719759b35b42a": {
       "type": "image-banner",
       "blocks": {
@@ -545,7 +494,6 @@
     "1639197879c4e52274",
     "16381731373742ab86",
     "1638173297c2783063",
-    "16381740530048cef2",
     "16381719759b35b42a"
   ]
 }
