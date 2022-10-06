@@ -429,6 +429,57 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "494f3fdb-7529-4d76-aea9-a00e631903af": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14357207548043__494f3fdb-7529-4d76-aea9-a00e631903af-16650346401b3aff35-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "template--14357207548043__494f3fdb-7529-4d76-aea9-a00e631903af-16650346401b3aff35-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--14357207548043__494f3fdb-7529-4d76-aea9-a00e631903af-16650346401b3aff35-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14357207548043__494f3fdb-7529-4d76-aea9-a00e631903af-16650346401b3aff35-0",
+        "template--14357207548043__494f3fdb-7529-4d76-aea9-a00e631903af-16650346401b3aff35-1",
+        "template--14357207548043__494f3fdb-7529-4d76-aea9-a00e631903af-16650346401b3aff35-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Radiant_Development.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -442,6 +493,7 @@
     "16381731373742ab86",
     "1638173297c2783063",
     "16381740530048cef2",
-    "16381719759b35b42a"
+    "16381719759b35b42a",
+    "494f3fdb-7529-4d76-aea9-a00e631903af"
   ]
 }
