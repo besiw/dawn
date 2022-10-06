@@ -173,6 +173,57 @@
         "show_rating": false
       }
     },
+    "ba82fd38-c278-4e50-962a-092308aa0cb2": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14357207548043__ba82fd38-c278-4e50-962a-092308aa0cb2-16650593679f655572-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "template--14357207548043__ba82fd38-c278-4e50-962a-092308aa0cb2-16650593679f655572-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--14357207548043__ba82fd38-c278-4e50-962a-092308aa0cb2-16650593679f655572-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14357207548043__ba82fd38-c278-4e50-962a-092308aa0cb2-16650593679f655572-0",
+        "template--14357207548043__ba82fd38-c278-4e50-962a-092308aa0cb2-16650593679f655572-1",
+        "template--14357207548043__ba82fd38-c278-4e50-962a-092308aa0cb2-16650593679f655572-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Radiant_Product_Application.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "9a701393-8d0b-41f4-9da3-c48923bac62a": {
       "type": "image-banner",
       "blocks": {
@@ -480,57 +531,6 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "ba82fd38-c278-4e50-962a-092308aa0cb2": {
-      "type": "image-banner",
-      "blocks": {
-        "template--14357207548043__ba82fd38-c278-4e50-962a-092308aa0cb2-16650593679f655572-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "template--14357207548043__ba82fd38-c278-4e50-962a-092308aa0cb2-16650593679f655572-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--14357207548043__ba82fd38-c278-4e50-962a-092308aa0cb2-16650593679f655572-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--14357207548043__ba82fd38-c278-4e50-962a-092308aa0cb2-16650593679f655572-0",
-        "template--14357207548043__ba82fd38-c278-4e50-962a-092308aa0cb2-16650593679f655572-1",
-        "template--14357207548043__ba82fd38-c278-4e50-962a-092308aa0cb2-16650593679f655572-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Radiant_Product_Application.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
@@ -539,13 +539,13 @@
     "16406171165289c925",
     "16381716995a7fc74d",
     "1638171798e74f717c",
+    "ba82fd38-c278-4e50-962a-092308aa0cb2",
     "9a701393-8d0b-41f4-9da3-c48923bac62a",
     "1638172035b6b551e5",
     "1639197879c4e52274",
     "16381731373742ab86",
     "1638173297c2783063",
     "16381740530048cef2",
-    "16381719759b35b42a",
-    "ba82fd38-c278-4e50-962a-092308aa0cb2"
+    "16381719759b35b42a"
   ]
 }
