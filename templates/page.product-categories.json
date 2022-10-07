@@ -38,6 +38,16 @@
             "link": ""
           }
         },
+        "53ca6f1d-fd57-410e-93fb-324cf63f9b6a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1562032556_2.jpg",
+            "title": "OLED",
+            "text": "",
+            "link_label": "All OLED LCD Display",
+            "link": ""
+          }
+        },
         "3bb52fc4-41f9-47eb-9d33-269fdf20b40e": {
           "type": "column",
           "settings": {
@@ -48,13 +58,13 @@
             "link": ""
           }
         },
-        "53ca6f1d-fd57-410e-93fb-324cf63f9b6a": {
+        "17aaeafb-ec38-4b13-9cb3-75126d6b1f3d": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1562032556_2.jpg",
-            "title": "OLED",
+            "image": "shopify:\/\/shop_images\/1562032609_2.jpg",
+            "title": "TFT LCD Display Module",
             "text": "",
-            "link_label": "All OLED LCD Display",
+            "link_label": "All TFT LCD Display",
             "link": ""
           }
         }
@@ -63,8 +73,9 @@
         "template--15417584484491__c16d555b-927c-4da3-95a3-98be021305ac-1665104083cbbd0e9b-0",
         "template--15417584484491__c16d555b-927c-4da3-95a3-98be021305ac-1665104083cbbd0e9b-1",
         "template--15417584484491__c16d555b-927c-4da3-95a3-98be021305ac-1665104083cbbd0e9b-2",
+        "53ca6f1d-fd57-410e-93fb-324cf63f9b6a",
         "3bb52fc4-41f9-47eb-9d33-269fdf20b40e",
-        "53ca6f1d-fd57-410e-93fb-324cf63f9b6a"
+        "17aaeafb-ec38-4b13-9cb3-75126d6b1f3d"
       ],
       "settings": {
         "title": "Multicolumn",
