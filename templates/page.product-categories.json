@@ -21,17 +21,29 @@
         "template--15417584484491__c16d555b-927c-4da3-95a3-98be021305ac-1665104083cbbd0e9b-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "image": "shopify:\/\/shop_images\/12864J-2.jpg",
+            "title": "Graphic",
+            "text": "",
+            "link_label": "All Graphic LCD Display",
             "link": ""
           }
         },
         "template--15417584484491__c16d555b-927c-4da3-95a3-98be021305ac-1665104083cbbd0e9b-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/COG_module.jpg",
+            "title": "COG",
+            "text": "",
+            "link_label": "COG LCD Display",
+            "link": ""
+          }
+        },
+        "3bb52fc4-41f9-47eb-9d33-269fdf20b40e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1562032732_2.jpg",
+            "title": "Wearable",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -40,7 +52,8 @@
       "block_order": [
         "template--15417584484491__c16d555b-927c-4da3-95a3-98be021305ac-1665104083cbbd0e9b-0",
         "template--15417584484491__c16d555b-927c-4da3-95a3-98be021305ac-1665104083cbbd0e9b-1",
-        "template--15417584484491__c16d555b-927c-4da3-95a3-98be021305ac-1665104083cbbd0e9b-2"
+        "template--15417584484491__c16d555b-927c-4da3-95a3-98be021305ac-1665104083cbbd0e9b-2",
+        "3bb52fc4-41f9-47eb-9d33-269fdf20b40e"
       ],
       "settings": {
         "title": "Multicolumn",
