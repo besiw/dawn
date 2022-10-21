@@ -1,0 +1,186 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "16414620623ab086b1": {
+      "type": "image-banner-homepage",
+      "blocks": {
+        "1641462062f5a1c74c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Radiant Electronics Limited",
+            "heading_size": "medium"
+          }
+        },
+        "1641462062f5a1c74c-1": {
+          "type": "text",
+          "settings": {
+            "text": "We are a Hong Kong based company specialized in LCD display panels.",
+            "text_style": "body"
+          }
+        },
+        "1641462062f5a1c74c-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Learn more",
+            "button_link_1": "shopify:\/\/pages\/about-us",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1641462062f5a1c74c-0",
+        "1641462062f5a1c74c-1",
+        "1641462062f5a1c74c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Radiant_Display_Website_banner-v3_28cbdb27-4c58-4c73-9036-710572fb9940.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "16414620454170aecd": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "1641462045667d06e3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "1641462045667d06e3-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1641462045667d06e3-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1641462045667d06e3-0",
+        "1641462045667d06e3-1",
+        "1641462045667d06e3-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16414625321de8b804": {
+      "type": "multicolumn-dark",
+      "blocks": {
+        "164146253213c7b93c-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Factory-Building.jpg",
+            "title": "Factory Buildings",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/pages\/factory-building"
+          }
+        },
+        "164146253213c7b93c-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Factory-Production_process.jpg",
+            "title": "Production Line",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "164146253213c7b93c-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Facilities.jpg",
+            "title": "Machines",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164146253213c7b93c-0",
+        "164146253213c7b93c-1",
+        "164146253213c7b93c-2"
+      ],
+      "settings": {
+        "title": "Virtual Factory Tour",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1641462881687d2e2c": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Quotes or enquires"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "16414620623ab086b1",
+    "product-grid",
+    "16414620454170aecd",
+    "16414625321de8b804",
+    "1641462881687d2e2c"
+  ]
+}
