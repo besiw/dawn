@@ -512,6 +512,54 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "3eb4e3c1-cf62-4d65-bd95-a713254c5040": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/COG_module.jpg",
+            "title": "COG (Chip on Glass)",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/graphic-lcd-chip-on-glass"
+          }
+        },
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-0",
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-1",
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
@@ -528,6 +576,7 @@
     "16381719759b35b42a",
     "e578f21b-fc9b-471a-8abc-eee92392477e",
     "c528b8d1-1269-40a6-93ac-3324e7ef19c7",
-    "b0f08be4-dd3c-4477-8b81-7120d54c996a"
+    "b0f08be4-dd3c-4477-8b81-7120d54c996a",
+    "3eb4e3c1-cf62-4d65-bd95-a713254c5040"
   ]
 }
