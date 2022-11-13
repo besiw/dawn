@@ -1,0 +1,73 @@
+<div class="prod-table" style="overflow-x: auto;">
+  <table>
+    <thead>
+      <tr class="tab-tit">
+        <th>
+          Name
+        </th>
+        <th>Image</th>
+        <th>
+          Module size
+        </th>
+        <th rowspan="1">
+          Viewing area
+        </th>
+        <th>
+          Character size
+        </th>
+        <th>
+          Horizon<br>
+          (mm)
+        </th>
+        <th>
+          Interface
+        </th>
+
+        <th>
+          Driver ic
+        </th>
+        <th>
+          Operating Temperature
+        </th>
+        <th>
+          Specification
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      {%- for product in collection_products -%}
+        {%- assign specs = product.metafields["accentuate"]-%}
+        <tr>
+          <td>{{ product.title}}</td>
+          <td>
+            <a href="{{ product.url | default: '#' }}" class="full-unstyled-link">
+              <img srcset="{{ product.featured_media | img_url: '165x' }}w" src="{{ product.featured_media | img_url: '200x' }}" sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="{{ product.featured_media.alt | escape }}" loading="lazy" class="motion-reduce" width="150" height="150">
+            </a>
+          </td>
+          <td>{{specs.module_sizew_x_h_x_d}}</td>
+          <td>{{specs.viewing_area_w_x_h}}</td>
+          <td>{{specs.character_size}}</td>
+          <td>{{specs.dot_pitch}}</td>
+          <td>
+            {{specs.interface }}</td>
+          <td>{{specs.driver_ic}}</td>
+          <td>
+            {{specs.operating_temperature}}
+          </td>
+          <td>
+            {%- assign spec_files = specs.specification_files| split: "|" -%}
+            <ul class="product-list border-2 border-solid border-blue-500 p-4 rounded-b-lg">
+              {%- for file in spec_files -%}
+                {% assign url = file | file_url %}
+                <li class="">
+                  <a class="no-underline text-blue-600" target="_blank" href="{{ url }}">Download Specification</a>
+                </li>
+              {%- endfor -%}
+            </td>
+          </td>
+        </tr>
+      {%- endfor -%}
+
+    </tbody>
+  </table>
+</div>

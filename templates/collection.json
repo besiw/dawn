@@ -7,8 +7,8 @@
         "show_collection_image": false
       }
     },
-    "product-grid": {
-      "type": "main-collection-product-grid",
+    "product-list": {
+      "type": "main-collection-product-list",
       "settings": {
         "products_per_page": 16,
         "image_ratio": "adapt",
@@ -27,6 +27,6 @@
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-list"
   ]
 }
