@@ -480,6 +480,22 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "c528b8d1-1269-40a6-93ac-3324e7ef19c7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "COG",
+        "collection": "graphic-lcd-chip-on-glass",
+        "products_to_show": 6,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
@@ -494,6 +510,7 @@
     "16381731373742ab86",
     "1638173297c2783063",
     "16381719759b35b42a",
-    "e578f21b-fc9b-471a-8abc-eee92392477e"
+    "e578f21b-fc9b-471a-8abc-eee92392477e",
+    "c528b8d1-1269-40a6-93ac-3324e7ef19c7"
   ]
 }
