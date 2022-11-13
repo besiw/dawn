@@ -90,6 +90,56 @@
         "show_text_below": true
       }
     },
+    "3eb4e3c1-cf62-4d65-bd95-a713254c5040": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/COG_module.jpg",
+            "title": "COG (Chip on Glass)",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/graphic-lcd-chip-on-glass"
+          }
+        },
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12864J-2.jpg",
+            "title": "Graphic LCD",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/graphic-lcd-without-chip-on-glass"
+          }
+        },
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16x2_Character_Display_LCD-RD1602A-8-Radiant_Display_Product-all-colors.jpg",
+            "title": "Character LCD",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/character-lcd-display"
+          }
+        }
+      },
+      "block_order": [
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-0",
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-1",
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "16406171165289c925": {
       "type": "multicolumn-dark",
       "blocks": {
@@ -138,6 +188,54 @@
         "button_label": "Button label",
         "button_link": "",
         "swipe_on_mobile": false
+      }
+    },
+    "e578f21b-fc9b-471a-8abc-eee92392477e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Character LCD",
+        "collection": "character-lcd-display",
+        "products_to_show": 6,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "c528b8d1-1269-40a6-93ac-3324e7ef19c7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "COG (Chip on Glass) LCD",
+        "collection": "graphic-lcd-chip-on-glass",
+        "products_to_show": 6,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "b0f08be4-dd3c-4477-8b81-7120d54c996a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Graphic LCD",
+        "collection": "graphic-lcd-without-chip-on-glass",
+        "products_to_show": 6,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
       }
     },
     "16381716995a7fc74d": {
@@ -464,110 +562,16 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "e578f21b-fc9b-471a-8abc-eee92392477e": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Character LCD",
-        "collection": "character-lcd-display",
-        "products_to_show": 6,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
-      }
-    },
-    "c528b8d1-1269-40a6-93ac-3324e7ef19c7": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "COG (Chip on Glass) LCD",
-        "collection": "graphic-lcd-chip-on-glass",
-        "products_to_show": 6,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
-      }
-    },
-    "b0f08be4-dd3c-4477-8b81-7120d54c996a": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Graphic LCD",
-        "collection": "graphic-lcd-without-chip-on-glass",
-        "products_to_show": 6,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
-      }
-    },
-    "3eb4e3c1-cf62-4d65-bd95-a713254c5040": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/COG_module.jpg",
-            "title": "COG (Chip on Glass)",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/collections\/graphic-lcd-chip-on-glass"
-          }
-        },
-        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/12864J-2.jpg",
-            "title": "Graphic LCD",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/collections\/graphic-lcd-without-chip-on-glass"
-          }
-        },
-        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/16x2_Character_Display_LCD-RD1602A-8-Radiant_Display_Product-all-colors.jpg",
-            "title": "Character LCD",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/collections\/character-lcd-display"
-          }
-        }
-      },
-      "block_order": [
-        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-0",
-        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-1",
-        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
     }
   },
   "order": [
     "165751107297cda28c",
     "image-banner-homepage",
+    "3eb4e3c1-cf62-4d65-bd95-a713254c5040",
     "16406171165289c925",
+    "e578f21b-fc9b-471a-8abc-eee92392477e",
+    "c528b8d1-1269-40a6-93ac-3324e7ef19c7",
+    "b0f08be4-dd3c-4477-8b81-7120d54c996a",
     "16381716995a7fc74d",
     "ba82fd38-c278-4e50-962a-092308aa0cb2",
     "9a701393-8d0b-41f4-9da3-c48923bac62a",
@@ -575,10 +579,6 @@
     "1639197879c4e52274",
     "16381731373742ab86",
     "1638173297c2783063",
-    "16381719759b35b42a",
-    "e578f21b-fc9b-471a-8abc-eee92392477e",
-    "c528b8d1-1269-40a6-93ac-3324e7ef19c7",
-    "b0f08be4-dd3c-4477-8b81-7120d54c996a",
-    "3eb4e3c1-cf62-4d65-bd95-a713254c5040"
+    "16381719759b35b42a"
   ]
 }
