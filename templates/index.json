@@ -157,22 +157,6 @@
         "show_rating": false
       }
     },
-    "1638171798e74f717c": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Monochrome LCD Display",
-        "collection": "monochrome-lcds",
-        "products_to_show": 8,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": true,
-        "show_rating": false
-      }
-    },
     "ba82fd38-c278-4e50-962a-092308aa0cb2": {
       "type": "image-banner",
       "blocks": {
@@ -480,6 +464,22 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "e578f21b-fc9b-471a-8abc-eee92392477e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Character LCD",
+        "collection": "character-lcd-display",
+        "products_to_show": 6,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
@@ -487,13 +487,13 @@
     "image-banner-homepage",
     "16406171165289c925",
     "16381716995a7fc74d",
-    "1638171798e74f717c",
     "ba82fd38-c278-4e50-962a-092308aa0cb2",
     "9a701393-8d0b-41f4-9da3-c48923bac62a",
     "1638172035b6b551e5",
     "1639197879c4e52274",
     "16381731373742ab86",
     "1638173297c2783063",
-    "16381719759b35b42a"
+    "16381719759b35b42a",
+    "e578f21b-fc9b-471a-8abc-eee92392477e"
   ]
 }
