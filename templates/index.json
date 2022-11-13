@@ -496,6 +496,22 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "b0f08be4-dd3c-4477-8b81-7120d54c996a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Graphic LCD",
+        "collection": "graphic-lcd-without-chip-on-glass",
+        "products_to_show": 6,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
@@ -511,6 +527,7 @@
     "1638173297c2783063",
     "16381719759b35b42a",
     "e578f21b-fc9b-471a-8abc-eee92392477e",
-    "c528b8d1-1269-40a6-93ac-3324e7ef19c7"
+    "c528b8d1-1269-40a6-93ac-3324e7ef19c7",
+    "b0f08be4-dd3c-4477-8b81-7120d54c996a"
   ]
 }
