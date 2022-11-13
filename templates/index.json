@@ -529,10 +529,11 @@
         "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/12864J-2.jpg",
+            "title": "Graphic LCD",
+            "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/graphic-lcd-without-chip-on-glass"
           }
         },
         "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2": {
