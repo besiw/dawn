@@ -93,36 +93,6 @@
     "3eb4e3c1-cf62-4d65-bd95-a713254c5040": {
       "type": "multicolumn",
       "blocks": {
-        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/COG_module.jpg",
-            "title": "COG (Chip on Glass)",
-            "text": "",
-            "link_label": "View all",
-            "link": "shopify:\/\/collections\/graphic-lcd-chip-on-glass"
-          }
-        },
-        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/12864J-2.jpg",
-            "title": "Graphic LCD",
-            "text": "",
-            "link_label": "View all",
-            "link": "shopify:\/\/collections\/graphic-lcd-without-chip-on-glass"
-          }
-        },
-        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/16x2_Character_Display_LCD-RD1602A-8-Radiant_Display_Product-all-colors.jpg",
-            "title": "Character LCD",
-            "text": "",
-            "link_label": "View all",
-            "link": "shopify:\/\/collections\/character-lcd-display"
-          }
-        },
         "b93e9696-28a1-4929-9049-024f976a6058": {
           "type": "column",
           "settings": {
@@ -152,15 +122,45 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/COG_module.jpg",
+            "title": "COG (Chip on Glass)",
+            "text": "",
+            "link_label": "View all",
+            "link": "shopify:\/\/collections\/graphic-lcd-chip-on-glass"
+          }
+        },
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12864J-2.jpg",
+            "title": "Graphic LCD",
+            "text": "",
+            "link_label": "View all",
+            "link": "shopify:\/\/collections\/graphic-lcd-without-chip-on-glass"
+          }
+        },
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16x2_Character_Display_LCD-RD1602A-8-Radiant_Display_Product-all-colors.jpg",
+            "title": "Character LCD",
+            "text": "",
+            "link_label": "View all",
+            "link": "shopify:\/\/collections\/character-lcd-display"
+          }
         }
       },
       "block_order": [
-        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-0",
-        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-1",
-        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2",
         "b93e9696-28a1-4929-9049-024f976a6058",
         "972ad82f-a4d1-4ece-a124-a3797de565a5",
-        "2a469400-1f45-4e26-bc39-7f59b29cf52f"
+        "2a469400-1f45-4e26-bc39-7f59b29cf52f",
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-0",
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-1",
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2"
       ],
       "settings": {
         "title": "Checkout our products",
