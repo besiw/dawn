@@ -1,0 +1,105 @@
+<div class="border-solid border-2 rounded-b-lg border-gray-500">
+  <table class="product-table w-full">
+    <tbody>
+      <tr class="">
+        <td class="">
+          Module size（W x H x D）
+        </td>
+        <td>
+          {{specs.module_sizew_x_h_x_d}}
+        </td>
+      </tr>
+      <tr>
+        <td class="">
+          Viewing area（W x H)
+        </td>
+        <td>
+          {{specs.viewing_area_w_x_h}}
+        </td>
+      </tr>
+      <tr>
+        <td class="">
+          Character Size
+        </td>
+        <td>
+          {{specs.character_size}}
+        </td>
+      </tr>
+      <tr>
+        <td class="">
+          Dot Size
+        </td>
+        <td>
+          {{specs.dot_size}}
+        </td>
+      </tr>
+      <tr>
+        <td class="">
+          Dot pitch (W x H)
+        </td>
+        <td>
+          {{specs.dot_pitch}}
+        </td>
+      </tr>
+      <tr>
+        <td class="">
+          Interface
+        </td>
+        <td>
+          {{specs.interface }}
+        </td>
+      </tr>
+      <tr>
+        <td class="">
+          Driver Condition
+        </td>
+        <td>
+          {{specs.driver_condition}}
+        </td>
+      </tr>
+      <tr>
+        <td class="">
+          Driver IC
+        </td>
+        <td>
+          {{specs.driver_ic}}
+        </td>
+      </tr>
+      <tr>
+        <td class="">
+          Operating temperature
+        </td>
+        <td>
+          {{specs.operating_temperature}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="hover:shadow-lg my-8">
+  <h2 class="text-white my-0 p-4 rounded-t-lg bg-blue-500">Datasheet</h2>
+  {%- assign datasheet = specs.datasheet | split: "|" -%}
+  <ul class="product-list border-2 border-solid border-blue-500 p-4 rounded-b-lg">
+    {%- for file in datasheet -%}
+      {% assign url = file | file_url %}
+      <li>
+        <a class="no-underline  text-blue-600" target="_blank" href="{{ url }}">{{file}}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
+<div class="hover:shadow-lg my-8">
+  <h2 class="text-white my-0 p-4 rounded-t-lg bg-blue-500">
+    Specification
+  </h2>
+  {%- assign spec_files = specs.specification_files| split: "|" -%}
+  <ul class="product-list border-2 border-solid border-blue-500 p-4 rounded-b-lg">
+    {%- for file in spec_files -%}
+      {% assign url = file | file_url %}
+      <li class="">
+        <a class="no-underline text-blue-600" target="_blank" href="{{ url }}">{{file}}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>

@@ -1,0 +1,56 @@
+<div class="border-solid border-2 rounded-b-lg border-gray-500">
+  <table class="product-table w-full">
+    <tbody>
+      <tr class="">
+        <td class="">
+          Resolution
+        </td>
+        <td>{{specs.resolution}}</td>
+      </tr>
+      <tr>
+        <td class="">
+          Brightness
+        </td>
+        <td>{{specs.brightness}}</td>
+      </tr>
+      <tr>
+        <td class="">
+          View Direction
+        </td>
+        <td>{{specs.viewing_direction}}</td>
+      </tr>
+      <tr>
+        <td class="">
+          Display Type
+        </td>
+        <td>{{specs.display_type}}</td>
+      </tr>
+      <tr>
+        <td class="">
+          Interface
+        </td>
+        <td>
+          {{specs.interface }}
+        </td>
+      </tr>
+      <tr>
+        <td class="">
+          Touch Type
+        </td>
+        <td>{{specs.touch_type }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="hover:shadow-lg my-8">
+  <h2 class="text-white my-0 p-4 rounded-t-lg bg-blue-500">General File</h2>
+  {%- assign datasheet = specs.general_other | split: "|" -%}
+  <ul class="product-list border-2 border-solid border-blue-500 p-4 rounded-b-lg">
+    {%- for file in datasheet -%}
+      {% assign url = file | file_url %}
+      <li>
+        <a class="no-underline  text-blue-600" target="_blank" href="{{ url }}">{{file}}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
