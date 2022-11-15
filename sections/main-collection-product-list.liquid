@@ -33,10 +33,13 @@
       <div class="collection page-width">
         <div class="loading-overlay gradient"></div>
         {% if collection.title contains "TFT" %}
-          {%- else -%}
-            {% render 'non-tft-product-list'
-             , collection_products: collection.products
-             , %}
+          {% render 'tft-product-list'
+           , collection_products: collection.products
+           , %}
+        {%- else -%}
+          {% render 'non-tft-product-list'
+           , collection_products: collection.products
+           , %}
         {% endif %}
         {%- if paginate.pages > 1 -%}
           {% render 'pagination', paginate: paginate, anchor: '' %}

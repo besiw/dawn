@@ -1,0 +1,44 @@
+<div class="prod-table" style="overflow-x: auto;">
+  <table>
+    <thead>
+      <tr class="tab-tit">
+        <th>
+          Name
+        </th>
+        <th>Image</th>
+        <th>Resolution</th>
+        <th>
+          Brightness
+        </th>
+        <th>View Direction</th>
+        <th>
+          Display Type
+        </th>
+        <th>Interface</th>
+        <th>
+          Touch Type
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      {%- for product in collection_products -%}
+        {%- assign specs = product.metafields["accentuate"]-%}
+        <tr>
+          <td>{{ product.title}}</td>
+          <td>
+            <a href="{{ product.url | default: '#' }}" class="full-unstyled-link">
+              <img srcset="{{ product.featured_media | img_url: '165x' }}w" src="{{ product.featured_media | img_url: '200x' }}" sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="{{ product.featured_media.alt | escape }}" loading="lazy" class="motion-reduce" width="150" height="150">
+            </a>
+          </td>
+          <td>{{specs.resolution}}</td>
+          <td>{{specs.brightness}}</td>
+          <td>{{specs.viewing_direction}}</td>
+          <td>{{specs.display_type}}</td>
+          <td>{{specs.interface }}</td>
+          <td>{{specs.touch_type }}</td>
+        </tr>
+      {%- endfor -%}
+
+    </tbody>
+  </table>
+</div>
