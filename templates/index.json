@@ -93,6 +93,36 @@
     "3eb4e3c1-cf62-4d65-bd95-a713254c5040": {
       "type": "multicolumn",
       "blocks": {
+        "b93e9696-28a1-4929-9049-024f976a6058": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10-5.0_inch_TFT_Display_1.jpg",
+            "title": "TFT Display",
+            "text": "",
+            "link_label": "View all",
+            "link": "shopify:\/\/collections\/tft-display"
+          }
+        },
+        "972ad82f-a4d1-4ece-a124-a3797de565a5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8-4.3_inch_TFT_with_Touch_Display_1.jpg",
+            "title": "Touch Display",
+            "text": "",
+            "link_label": "View all",
+            "link": "shopify:\/\/collections\/touch-display"
+          }
+        },
+        "2a469400-1f45-4e26-bc39-7f59b29cf52f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14-7.0_inch_Bar_type_TFT_Display_1.jpg",
+            "title": "Bar Type TFT Display",
+            "text": "",
+            "link_label": "View all",
+            "link": "shopify:\/\/collections\/bar-type-display"
+          }
+        },
         "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-0": {
           "type": "column",
           "settings": {
@@ -125,6 +155,9 @@
         }
       },
       "block_order": [
+        "b93e9696-28a1-4929-9049-024f976a6058",
+        "972ad82f-a4d1-4ece-a124-a3797de565a5",
+        "2a469400-1f45-4e26-bc39-7f59b29cf52f",
         "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-0",
         "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-1",
         "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2"
