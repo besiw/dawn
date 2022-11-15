@@ -223,6 +223,22 @@
         "swipe_on_mobile": false
       }
     },
+    "16381716995a7fc74d": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "TFT LCD Display",
+        "collection": "tft-display",
+        "products_to_show": 6,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
     "c528b8d1-1269-40a6-93ac-3324e7ef19c7": {
       "type": "featured-collection",
       "settings": {
@@ -268,23 +284,6 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
-        "show_rating": false
-      }
-    },
-    "16381716995a7fc74d": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "TFT LCD Display module",
-        "collection": "tft-lcd-display",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": true,
         "show_rating": false
       }
     },
@@ -602,10 +601,10 @@
     "image-banner-homepage",
     "3eb4e3c1-cf62-4d65-bd95-a713254c5040",
     "16406171165289c925",
+    "16381716995a7fc74d",
     "c528b8d1-1269-40a6-93ac-3324e7ef19c7",
     "b0f08be4-dd3c-4477-8b81-7120d54c996a",
     "e578f21b-fc9b-471a-8abc-eee92392477e",
-    "16381716995a7fc74d",
     "ba82fd38-c278-4e50-962a-092308aa0cb2",
     "9a701393-8d0b-41f4-9da3-c48923bac62a",
     "1638172035b6b551e5",
