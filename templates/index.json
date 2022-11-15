@@ -132,13 +132,24 @@
             "link_label": "View all",
             "link": "shopify:\/\/collections\/tft-display"
           }
+        },
+        "972ad82f-a4d1-4ece-a124-a3797de565a5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8-4.3_inch_TFT_with_Touch_Display_1.jpg",
+            "title": "Touch Display",
+            "text": "",
+            "link_label": "View all",
+            "link": "shopify:\/\/collections\/touch-display"
+          }
         }
       },
       "block_order": [
         "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-0",
         "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-1",
         "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2",
-        "b93e9696-28a1-4929-9049-024f976a6058"
+        "b93e9696-28a1-4929-9049-024f976a6058",
+        "972ad82f-a4d1-4ece-a124-a3797de565a5"
       ],
       "settings": {
         "title": "Checkout our products",
