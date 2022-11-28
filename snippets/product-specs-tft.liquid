@@ -43,13 +43,15 @@
   </table>
 </div>
 <div class="hover:shadow-lg my-8">
-  <h2 class="text-white my-0 p-4 rounded-t-lg bg-blue-500">General File</h2>
-  {%- assign datasheet = specs.general_other | split: "|" -%}
+  <h2 class="text-white my-0 p-4 rounded-t-lg bg-blue-500">
+    Specification
+  </h2>
+  {%- assign spec_files = specs.specification_files| split: "|" -%}
   <ul class="product-list border-2 border-solid border-blue-500 p-4 rounded-b-lg">
-    {%- for file in datasheet -%}
+    {%- for file in spec_files -%}
       {% assign url = file | file_url %}
-      <li>
-        <a class="no-underline  text-blue-600" target="_blank" href="{{ url }}">{{file}}</a>
+      <li class="">
+        <a class="no-underline text-blue-600" target="_blank" href="{{ url }}">{{file}}</a>
       </li>
     {%- endfor -%}
   </ul>
