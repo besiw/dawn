@@ -152,6 +152,16 @@
             "link_label": "View all",
             "link": "shopify:\/\/collections\/character-lcd-display"
           }
+        },
+        "23dbb0bf-3c14-4440-b685-70e489fb69b5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0.42_OLED_display_-72x40_White_SPI_IIC_I2C_SSD1315_3.jpg",
+            "title": "OLED Display",
+            "text": "",
+            "link_label": "View all",
+            "link": "shopify:\/\/collections\/oled-display"
+          }
         }
       },
       "block_order": [
@@ -160,7 +170,8 @@
         "2a469400-1f45-4e26-bc39-7f59b29cf52f",
         "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-0",
         "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-1",
-        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2"
+        "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2",
+        "23dbb0bf-3c14-4440-b685-70e489fb69b5"
       ],
       "settings": {
         "title": "Checkout our products",
