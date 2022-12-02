@@ -37,12 +37,23 @@
             "link_label": "View all",
             "link": "shopify:\/\/collections\/oled-display"
           }
+        },
+        "ffb8529a-45ce-4c2f-8ed1-821135f5649b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/COG_module.jpg",
+            "title": "COG (Chip on Glass)",
+            "text": "",
+            "link_label": "View all",
+            "link": "shopify:\/\/collections\/graphic-lcd-chip-on-glass"
+          }
         }
       },
       "block_order": [
         "02655a58-8760-4fe1-9c54-ff08550efb9d",
         "3dc305a7-337f-456c-9cb2-8df394eb330b",
-        "0c407184-072d-42b0-a0b2-7ccad00940bb"
+        "0c407184-072d-42b0-a0b2-7ccad00940bb",
+        "ffb8529a-45ce-4c2f-8ed1-821135f5649b"
       ],
       "settings": {
         "title": "Multicolumn",
