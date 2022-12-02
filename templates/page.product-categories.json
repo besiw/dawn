@@ -17,10 +17,21 @@
             "link_label": "",
             "link": "shopify:\/\/collections\/touch-display"
           }
+        },
+        "3dc305a7-337f-456c-9cb2-8df394eb330b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10-5.0_inch_TFT_Display_1.jpg",
+            "title": "TFT Display",
+            "text": "",
+            "link_label": "View all",
+            "link": "shopify:\/\/collections\/tft-display"
+          }
         }
       },
       "block_order": [
-        "02655a58-8760-4fe1-9c54-ff08550efb9d"
+        "02655a58-8760-4fe1-9c54-ff08550efb9d",
+        "3dc305a7-337f-456c-9cb2-8df394eb330b"
       ],
       "settings": {
         "title": "Multicolumn",
