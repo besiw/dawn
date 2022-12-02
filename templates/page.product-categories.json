@@ -8,74 +8,19 @@
     "c16d555b-927c-4da3-95a3-98be021305ac": {
       "type": "multicolumn",
       "blocks": {
-        "template--15417584484491__c16d555b-927c-4da3-95a3-98be021305ac-1665104083cbbd0e9b-0": {
+        "02655a58-8760-4fe1-9c54-ff08550efb9d": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/16x2_Character_Display_LCD-RD1602A-8-Radiant_Display_Product-all-colors.jpg",
-            "title": "Character",
-            "text": "",
-            "link_label": "All Character LCD Display",
-            "link": "shopify:\/\/collections\/all"
-          }
-        },
-        "template--15417584484491__c16d555b-927c-4da3-95a3-98be021305ac-1665104083cbbd0e9b-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/12864J-2.jpg",
-            "title": "Graphic",
-            "text": "",
-            "link_label": "All Graphic LCD Display",
-            "link": ""
-          }
-        },
-        "template--15417584484491__c16d555b-927c-4da3-95a3-98be021305ac-1665104083cbbd0e9b-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/COG_module.jpg",
-            "title": "COG",
-            "text": "",
-            "link_label": "COG LCD Display",
-            "link": ""
-          }
-        },
-        "53ca6f1d-fd57-410e-93fb-324cf63f9b6a": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1562032556_2.jpg",
-            "title": "OLED",
-            "text": "",
-            "link_label": "All OLED LCD Display",
-            "link": ""
-          }
-        },
-        "17aaeafb-ec38-4b13-9cb3-75126d6b1f3d": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1562032609_2.jpg",
-            "title": "TFT LCD Display Module",
-            "text": "",
-            "link_label": "All TFT LCD Display",
-            "link": ""
-          }
-        },
-        "3bb52fc4-41f9-47eb-9d33-269fdf20b40e": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1562032732_2.jpg",
-            "title": "Wearable",
-            "text": "",
-            "link_label": "Learn more about Wearable LCD Display",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/8-4.3_inch_TFT_with_Touch_Display_1.jpg",
+            "title": "Touch display",
+            "text": "<p>View all<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/touch-display"
           }
         }
       },
       "block_order": [
-        "template--15417584484491__c16d555b-927c-4da3-95a3-98be021305ac-1665104083cbbd0e9b-0",
-        "template--15417584484491__c16d555b-927c-4da3-95a3-98be021305ac-1665104083cbbd0e9b-1",
-        "template--15417584484491__c16d555b-927c-4da3-95a3-98be021305ac-1665104083cbbd0e9b-2",
-        "53ca6f1d-fd57-410e-93fb-324cf63f9b6a",
-        "17aaeafb-ec38-4b13-9cb3-75126d6b1f3d",
-        "3bb52fc4-41f9-47eb-9d33-269fdf20b40e"
+        "02655a58-8760-4fe1-9c54-ff08550efb9d"
       ],
       "settings": {
         "title": "Multicolumn",
