@@ -57,6 +57,16 @@
             "link_label": "Graphic LCD",
             "link": "shopify:\/\/collections\/graphic-lcd-without-chip-on-glass"
           }
+        },
+        "fd6a6c5b-b6ba-46e8-89b0-f0a6053c315f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16x2_Character_Display_LCD-RD1602A-8-Radiant_Display_Product-all-colors.jpg",
+            "title": "Character LCD",
+            "text": "",
+            "link_label": "View all",
+            "link": "shopify:\/\/collections\/character-lcd-display"
+          }
         }
       },
       "block_order": [
@@ -64,7 +74,8 @@
         "3dc305a7-337f-456c-9cb2-8df394eb330b",
         "0c407184-072d-42b0-a0b2-7ccad00940bb",
         "ffb8529a-45ce-4c2f-8ed1-821135f5649b",
-        "b879b079-122c-4091-990f-b8fa76c06b05"
+        "b879b079-122c-4091-990f-b8fa76c06b05",
+        "fd6a6c5b-b6ba-46e8-89b0-f0a6053c315f"
       ],
       "settings": {
         "title": "Multicolumn",
