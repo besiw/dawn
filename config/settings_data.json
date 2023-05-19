@@ -93,7 +93,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "6744518860797519131": {
+        "type": "shopify:\/\/apps\/et-language-translate-currency\/blocks\/floating-selector\/35c05b0e-4f05-4fc9-adc7-77b6ccb6b2ca",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
