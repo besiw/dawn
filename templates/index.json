@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "165751107297cda28c": {
@@ -29,7 +38,7 @@
         "4a9a0a65-da92-4fd0-8813-3483ffa9687b"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/wide_viewing_angle.jpg",
+        "image": "shopify://shop_images/wide_viewing_angle.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
@@ -63,7 +72,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "About Radisplay",
-            "button_link_1": "shopify:\/\/pages\/about-us",
+            "button_link_1": "shopify://pages/about-us",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -77,7 +86,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Radiant_Display_Website_banner-v3_28cbdb27-4c58-4c73-9036-710572fb9940.jpg",
+        "image": "shopify://shop_images/Radiant_Display_Website_banner-v3_28cbdb27-4c58-4c73-9036-710572fb9940.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
@@ -96,61 +105,61 @@
         "b93e9696-28a1-4929-9049-024f976a6058": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/10-5.0_inch_TFT_Display_1.jpg",
+            "image": "shopify://shop_images/10-5.0_inch_TFT_Display_1.jpg",
             "title": "TFT Display",
             "text": "",
             "link_label": "View all",
-            "link": "shopify:\/\/collections\/tft-display"
+            "link": "shopify://collections/tft-display"
           }
         },
         "972ad82f-a4d1-4ece-a124-a3797de565a5": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8-4.3_inch_TFT_with_Touch_Display_1.jpg",
+            "image": "shopify://shop_images/8-4.3_inch_TFT_with_Touch_Display_1.jpg",
             "title": "Touch Display",
             "text": "",
             "link_label": "View all",
-            "link": "shopify:\/\/collections\/touch-display"
+            "link": "shopify://collections/touch-display"
           }
         },
         "23dbb0bf-3c14-4440-b685-70e489fb69b5": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/0.42_OLED_display_-72x40_White_SPI_IIC_I2C_SSD1315_3.jpg",
+            "image": "shopify://shop_images/0.42_OLED_display_-72x40_White_SPI_IIC_I2C_SSD1315_3.jpg",
             "title": "OLED Display",
             "text": "",
             "link_label": "View all",
-            "link": "shopify:\/\/collections\/oled-display"
+            "link": "shopify://collections/oled-display"
           }
         },
         "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/COG_module.jpg",
+            "image": "shopify://shop_images/COG_module.jpg",
             "title": "COG (Chip on Glass)",
             "text": "",
             "link_label": "View all",
-            "link": "shopify:\/\/collections\/graphic-lcd-chip-on-glass"
+            "link": "shopify://collections/graphic-lcd-chip-on-glass"
           }
         },
         "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/12864J-2.jpg",
+            "image": "shopify://shop_images/12864J-2.jpg",
             "title": "Graphic LCD",
             "text": "",
             "link_label": "View all",
-            "link": "shopify:\/\/collections\/graphic-lcd-without-chip-on-glass"
+            "link": "shopify://collections/graphic-lcd-without-chip-on-glass"
           }
         },
         "template--15455887622283__3eb4e3c1-cf62-4d65-bd95-a713254c5040-166835349914cece45-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/16x2_Character_Display_LCD-RD1602A-8-Radiant_Display_Product-all-colors.jpg",
+            "image": "shopify://shop_images/16x2_Character_Display_LCD-RD1602A-8-Radiant_Display_Product-all-colors.jpg",
             "title": "Character LCD",
             "text": "",
             "link_label": "View all",
-            "link": "shopify:\/\/collections\/character-lcd-display"
+            "link": "shopify://collections/character-lcd-display"
           }
         }
       },
@@ -179,31 +188,31 @@
         "1640617116fbd260ad-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Factory-Building.jpg",
+            "image": "shopify://shop_images/Radiant-Electronics_Ltd-Factory-Building.jpg",
             "title": "Factory Buildings",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/pages\/factory-building"
+            "link": "shopify://pages/factory-building"
           }
         },
         "1640617116fbd260ad-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Factory-Production_process.jpg",
+            "image": "shopify://shop_images/Radiant-Electronics_Ltd-Factory-Production_process.jpg",
             "title": "Production Line",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
-            "link": "shopify:\/\/pages\/production-1"
+            "link": "shopify://pages/production-1"
           }
         },
         "1640617116fbd260ad-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Radiant-Electronics_Ltd-Facilities.jpg",
+            "image": "shopify://shop_images/Radiant-Electronics_Ltd-Facilities.jpg",
             "title": "Machines",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
-            "link": "shopify:\/\/pages\/machines"
+            "link": "shopify://pages/machines"
           }
         }
       },
@@ -325,7 +334,7 @@
         "template--14357207548043__ba82fd38-c278-4e50-962a-092308aa0cb2-16650593679f655572-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Radiant_Product_Application.jpg",
+        "image": "shopify://shop_images/Radiant_Product_Application.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
@@ -376,7 +385,7 @@
         "template--14357207548043__9a701393-8d0b-41f4-9da3-c48923bac62a-16650593679f655572-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Radiant_Product_Categories.jpg",
+        "image": "shopify://shop_images/Radiant_Product_Categories.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
@@ -395,9 +404,9 @@
         "16381720351e0a2d97-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Map-HK.jpg",
+            "image": "shopify://shop_images/Map-HK.jpg",
             "title": "Headquarters (Hong Kong)",
-            "text": "<p><strong>Radiant Electronics Limited<\/strong><\/p><p>Rm U,13\/F Blk. 1 Kinho Ind, Bldg.,14 Au Pui Wan St., H.K.<\/p>",
+            "text": "<p><strong>Radiant Electronics Limited</strong></p><p>Rm U,13/F Blk. 1 Kinho Ind, Bldg.,14 Au Pui Wan St., H.K.</p>",
             "link_label": "",
             "link": ""
           }
@@ -405,9 +414,9 @@
         "16381720351e0a2d97-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Map-Henggang.jpg",
+            "image": "shopify://shop_images/Map-Henggang.jpg",
             "title": "Shenzhen Base",
-            "text": "<p><strong>Shenzhen Radiant Electronics Limited<\/strong><br\/><\/p><p>401, Building C, Fuyunlai Technology Park, No. 57, Anhua Road<\/p>",
+            "text": "<p><strong>Shenzhen Radiant Electronics Limited</strong><br/></p><p>401, Building C, Fuyunlai Technology Park, No. 57, Anhua Road</p>",
             "link_label": "",
             "link": ""
           }
@@ -415,9 +424,9 @@
         "16381720351e0a2d97-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Map-Taimei.jpg",
+            "image": "shopify://shop_images/Map-Taimei.jpg",
             "title": "Huizhou Base",
-            "text": "<p><strong>Huizhou Radiant Photo Tech  Ltd.<\/strong><\/p><p>Banqiao Industrial Area Taimei Village Boluo District<\/p>",
+            "text": "<p><strong>Huizhou Radiant PhotoElectronic Tech  Ltd.</strong></p><p>Banqiao Industrial Area Taimei Village Boluo District</p>",
             "link_label": "",
             "link": ""
           }
@@ -460,7 +469,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Read more",
-            "button_link_1": "shopify:\/\/pages\/about-us",
+            "button_link_1": "shopify://pages/about-us",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -474,7 +483,7 @@
         "163919787940139fd5-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Radiant_Display_ac314928-1b0d-4512-a7c8-523af5f28547.jpg",
+        "image": "shopify://shop_images/Radiant_Display_ac314928-1b0d-4512-a7c8-523af5f28547.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -531,7 +540,7 @@
         "16381732961ee5196b-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2021-11-29_at_09.19.56.png",
+        "image": "shopify://shop_images/Screen_Shot_2021-11-29_at_09.19.56.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
@@ -582,7 +591,7 @@
         "1638171975f034cbfd-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2021-11-29_at_09.14.15.png",
+        "image": "shopify://shop_images/Screen_Shot_2021-11-29_at_09.14.15.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
@@ -26,14 +35,13 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
           "color_scheme": "accent-2",
-          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo": "shopify://shop_images/logo.png",
           "logo_width": 70,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -56,21 +64,21 @@
             "type": "text",
             "settings": {
               "heading": "HEADQUARTERS",
-              "subtext": "<p><strong>Radiant Electronics Limited<\/strong><\/p><p><\/p><p>Rm U,13\/F Blk. 1 Kinho Ind, Bldg.,14 Au Pui Wan St., H.K.<\/p><p>Tel:(852)29470031<\/p><p>Fax:(852)2947088<\/p><p>E-mail: becca@radiant-display.com<\/p><p>Director: Wong Po Yiu <\/p><p>Established: 24-09-1991 <\/p><p>Capital: HK$ 40 mil.<\/p>"
+              "subtext": "<p><strong>Radiant Electronics Limited</strong></p><p></p><p>Rm U,13/F Blk. 1 Kinho Ind, Bldg.,14 Au Pui Wan St., H.K.</p><p>Tel:(852)29470031</p><p>Fax:(852)2947088</p><p>E-mail: becca@radiant-display.com</p><p>Director: Wong Po Yiu </p><p>Established: 24-09-1991 </p><p>Capital: HK$ 40 mil.</p>"
             }
           },
           "6930869d-5267-4037-8a49-49c8a807b226": {
             "type": "text",
             "settings": {
               "heading": "Shenzhen Plant",
-              "subtext": "<p><strong>Shenzhen Radiant Electronics Limited<\/strong><br\/><\/p><p>13 Jintang St. Tangkeng Village Henggang S.Z. China<\/p><p>Tel:(86755)28685743<\/p><p>Fax:(86755) 28685739<\/p><p>Area: 5290 sq. M<\/p><p>Staff number: 250 <\/p><p>Director  Wong Po Yiu<\/p><p>Establised: 1996<\/p><p>Capital : RMB 30 mil.<\/p>"
+              "subtext": "<p><strong>Shenzhen Radiant Electronics Limited</strong><br/></p><p>13 Jintang St. Tangkeng Village Henggang S.Z. China</p><p>Tel:(86755)28685743</p><p>Fax:(86755) 28685739</p><p>Area: 5290 sq. M</p><p>Staff number: 250 </p><p>Director  Wong Po Yiu</p><p>Establised: 1996</p><p>Capital : RMB 30 mil.</p>"
             }
           },
           "footer-1": {
             "type": "text",
             "settings": {
               "heading": "Huizhou Plant",
-              "subtext": "<p><\/p><p><strong>Huizhou Radiant Photo Tech  Ltd.<\/strong><\/p><p><\/p><p>Banqiao Industrial Area Taimei Village Boluo District<\/p><p>Tel:(0752)6723919   <\/p><p>Fax:(0752)672382<\/p><p>Ind. Land Area 12750 sq. M<\/p><p>Staff number:40<\/p><p>Director. Wong Po Yiu<\/p><p>Established: 200<\/p><p>Capital: RMB 40 mil.<\/p>"
+              "subtext": "<p></p><p><strong>Huizhou Radiant Photo Tech  Ltd.</strong></p><p></p><p>Banqiao Industrial Area Taimei Village Boluo District</p><p>Tel:(0752)6723919   </p><p>Fax:(0752)672382</p><p>Ind. Land Area 12750 sq. M</p><p>Staff number:40</p><p>Director. Wong Po Yiu</p><p>Established: 200</p><p>Capital: RMB 40 mil.</p>"
             }
           }
         },
@@ -91,39 +99,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "6744518860797519131": {
-        "type": "shopify:\/\/apps\/etranslate-language-translate\/blocks\/floating-selector\/35c05b0e-4f05-4fc9-adc7-77b6ccb6b2ca",
+        "type": "shopify://apps/etranslate-language-translate/blocks/floating-selector/35c05b0e-4f05-4fc9-adc7-77b6ccb6b2ca",
         "disabled": false,
-        "settings": {
-          "status": false,
-          "selector_type": "language",
-          "auto_switch_language": "0",
-          "auto_switch_location_currency": false,
-          "choose_language_selector": "floating_selector",
-          "position_lr": "left",
-          "position_tb": "fixed_bottom",
-          "style_of_the_selector_all": "dropdown",
-          "labels_type": "language_name",
-          "background_color": "#ffffff",
-          "font_color": "#000000",
-          "background_opacity": 0,
-          "mobile_choose_language_selector": "floating_selector",
-          "mobile_position_lr": "left",
-          "mobile_position_tb": "fixed_bottom",
-          "mobile_vertical": 12,
-          "mobile_horizontal": 12,
-          "mobile_style_of_the_selector_all": "dropdown",
-          "mobile_labels_type": "language_name",
-          "mobile_background_color": "#ffffff",
-          "mobile_font_color": "#000000",
-          "mobile_background_opacity": 100,
-          "vertical": 12,
-          "horizontal": 12
-        }
+        "settings": {}
       }
     }
   },
@@ -152,8 +133,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         }
       }
     },
@@ -173,13 +153,11 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
